@@ -20,6 +20,11 @@
    + google的反编译工具
    + 可以将dalvik bytecode转化为java bytecode
    + 比dex2jar支持case更多
++ [jeb](https://www.pnfsoftware.com/)
+   + 商业反编译软件(有demo版本免费)
+   + 强大的将bytecode转为java代码的能力，对于循环等处理的很好
+   + 支持动态编辑，重命名，添加新packag等
+   + 支持python的api扩展
   
 ###TODO
 1. 添加脚本，将所有工具加入到系统变量中
