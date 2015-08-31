@@ -1,0 +1,6 @@
+org.eclipse.jdt.debug/debug=false
+org.eclipse.jdt.debug/debug/jdiEvents=false
+org.eclipse.jdt.debug/debug/jdiRequestTimes=false
+org.eclipse.jdt.debug/debug/astEvaluations=false
+org.eclipse.jdt.debug/debug/astEvaluations/callingThreads=false
+

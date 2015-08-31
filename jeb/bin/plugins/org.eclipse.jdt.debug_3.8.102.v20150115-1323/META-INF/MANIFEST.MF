@@ -1,0 +1,71 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: e4Build
+Bundle-SymbolicName: org.eclipse.jdt.debug; singleton:=true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/jdt/ec
+ lipse.jdt.debug.git;path="org.eclipse.jdt.debug";tag="M20150115-1401"
+ ;commitId=42ae1b6a41f2fb0b7d4c4a309d610d2686e04d62
+Bundle-Activator: org.eclipse.jdt.internal.debug.core.JDIDebugPlugin
+Require-Bundle: org.eclipse.core.resources;bundle-version="[3.5.0,4.0.
+ 0)",org.eclipse.debug.core;bundle-version="[3.9.0,4.0.0)",org.eclipse
+ .jdt.core;bundle-version="[3.8.0,4.0.0)",org.eclipse.core.runtime;bun
+ dle-version="[3.5.0,4.0.0)",org.eclipse.core.expressions;bundle-versi
+ on="[3.4.0,4.0.0)"
+Bundle-Version: 3.8.102.v20150115-1323
+Export-Package: com.sun.jdi;x-friends:="org.eclipse.jdt.debug.ui,org.e
+ clipse.jdt.launching",com.sun.jdi.connect;x-friends:="org.eclipse.jdt
+ .debug.ui,org.eclipse.jdt.launching",com.sun.jdi.connect.spi;x-friend
+ s:="org.eclipse.jdt.debug.ui,org.eclipse.jdt.launching",com.sun.jdi.e
+ vent;x-friends:="org.eclipse.jdt.debug.ui,org.eclipse.jdt.launching",
+ com.sun.jdi.request;x-friends:="org.eclipse.jdt.debug.ui,org.eclipse.
+ jdt.launching",org.eclipse.jdi,org.eclipse.jdi.hcr,org.eclipse.jdi.in
+ ternal;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdi.internal
+ .connect;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdi.intern
+ al.event;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdi.intern
+ al.jdwp;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdi.interna
+ l.request;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdi.inter
+ nal.spy;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdt.debug.c
+ ore,org.eclipse.jdt.debug.eval,org.eclipse.jdt.internal.debug.core;x-
+ friends:="org.eclipse.jdt.debug.ui,org.eclipse.jdt.launching",org.ecl
+ ipse.jdt.internal.debug.core.breakpoints;x-friends:="org.eclipse.jdt.
+ debug.ui",org.eclipse.jdt.internal.debug.core.hcr;x-friends:="org.ecl
+ ipse.jdt.debug.ui",org.eclipse.jdt.internal.debug.core.logicalstructu
+ res;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdt.internal.de
+ bug.core.model;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse.jdt.
+ internal.debug.eval;x-friends:="org.eclipse.jdt.debug.ui",org.eclipse
+ .jdt.internal.debug.eval.ast.engine;x-friends:="org.eclipse.jdt.debug
+ .ui",org.eclipse.jdt.internal.debug.eval.ast.instructions;x-friends:=
+ "org.eclipse.jdt.debug.ui"
+Build-Jdk: 1.7.0_51
+Bundle-ClassPath: jdi.jar,jdimodel.jar,tools.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.1.1
+Import-Package: com.ibm.icu.text
+Bundle-ManifestVersion: 2
+
+Name: .options
+SHA1-Digest: 5/O5tTad+7YJpWUhS6yN+V9SmHc=
+
+Name: jdimodel.jar
+SHA1-Digest: PXgEBO7Q24yQ9szKG+XfKH3JCMw=
+
+Name: .api_description
+SHA1-Digest: hwIrbYn7sTiKZQgH01PpZ1E7Kvc=
+
+Name: about.html
+SHA1-Digest: ejOZra0kypGLQQ2bJtGTX+LI8tU=
+
+Name: jdi.jar
+SHA1-Digest: NHZg8cUCUaUtAuRSdm8e7qUgCYw=
+
+Name: plugin.xml
+SHA1-Digest: sdFPICcJ1l9o0DDAGW9JuY1d6/c=
+
+Name: plugin.properties
+SHA1-Digest: H4jJ+ymeOBZsSwPkcQzrfS3UMxM=
+

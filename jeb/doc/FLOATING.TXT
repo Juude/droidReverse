@@ -1,0 +1,44 @@
+JEB2 Decompiler
+PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+> FLOATING LICENSES
+
+Floating builds provide more flexibility than individual builds, and can be
+distributed to many users within an organization.
+
+Currently, only the Enterprise version of JEB2 supports floating licenses.
+
+The client (referred to as "JEB") as well as the server (referred to as the
+"Controller") are the same binary file: there is no separate package for the
+Controller.
+
+When starting, as well as during its execution, JEB will regularly probe the
+Controller to determine whether or not it is allowed to run. This check is
+based on the number of seats available in your licensed build: eg, a floating
+license for 5 seats allows 5 different users to run JEB concurrently.
+
+In order to start the Controller, use the '--controller' flag along with the
+'-c' flag. Example, if the controller runs on a Linux machine:
+
+  $ jeb_linux.sh -c --controller
+
+In order to start JEB, proceed as usual, for instance on Windows:
+
+  $ jeb_wincon.bat
+
+Notes:
+- The '--controller' flag is not available if the build is not a floating one.
+- The Controller must be started before the clients.
+- JEB instances regularly contact the Controller. Therefore, the Controller
+  should always be reachable by running instances of JEB. In order to minimize
+  potential problems due to network latency, it is recommended to run JEB and
+  the Controller within the same local network.
+- By default, the Controller listens on all interfaces, on port 23477. This
+  can be changed by setting the '.ControllerInterface' and '.ControllerPort'
+  flags the configuration file. Please refer to the manual for more information
+  about the configuration file.
+- The protocol used for communication between a Controller and JEB instances is
+  HTTP, therefore eliminating potential firewall blocking issues.
+- JEB instances and the Controller may be run in different environments (as in
+  the example above: Controller on Linux, JEB on Windows, etc.)

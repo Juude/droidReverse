@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-Name: %pluginName
+Bundle-SymbolicName: PLUGIN_ID; singleton=true
+Bundle-Version: PLUGIN_VERSION
+Bundle-Localization: plugin
+Bundle-Vendor: %providerName

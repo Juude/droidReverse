@@ -1,0 +1,2 @@
+# Debugging options for the org.eclipse.pde.build plug-in.
+org.eclipse.pde.build/debug = false

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?><!--
+    Copyright (c) 2005, 2010 IBM Corporation and others.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+   
+    Contributors:
+        IBM Corporation - initial API and implementation
+ -->
+
+<plugin>
+   <extension-point id="fetchFactories" name="%fetchFactories.name" schema="schema/fetchFactories.exsd"/>
+<!-- Tasks -->
+   <extension
+         point="org.eclipse.ant.core.antTasks">
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.brand"
+            class="org.eclipse.pde.internal.build.tasks.BrandTask">
+      </antTask>
+      <antTask
+      		library="lib/pdebuild-ant.jar"
+      		name="eclipse.brand.p2.artifacts"
+      		class="org.eclipse.pde.internal.build.publisher.BrandP2Task">
+      </antTask>
+      <antTask
+      		library="lib/pdebuild-ant.jar"
+      		name="eclipse.gatherBundle"
+      		class="org.eclipse.pde.internal.build.publisher.GatherBundleTask">
+      </antTask>
+      <antTask
+      		library="lib/pdebuild-ant.jar"
+      		name="eclipse.gatherFeature"
+      		class="org.eclipse.pde.internal.build.publisher.GatherFeatureTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.fetch"
+            class="org.eclipse.pde.internal.build.tasks.FetchTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.buildScript"
+            class="org.eclipse.pde.internal.build.tasks.BuildScriptGeneratorTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.generateFeature"
+            class="org.eclipse.pde.internal.build.tasks.FeatureGeneratorTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.buildManifest"
+            class="org.eclipse.pde.internal.build.tasks.BuildManifestTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.assembler"
+            class="org.eclipse.pde.internal.build.tasks.PackagerTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.idReplacer"
+            class="org.eclipse.pde.internal.build.tasks.IdReplaceTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.licenseReplacer"
+            class="org.eclipse.pde.internal.build.tasks.LicenseReplaceTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.jnlpGenerator"
+            class="org.eclipse.pde.internal.build.tasks.JNLPGeneratorTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.unzipperBuilder"
+            class="org.eclipse.pde.internal.build.tasks.UnzipperGeneratorTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.fetchFilesGenerator"
+            class="org.eclipse.pde.internal.build.tasks.FetchFileGeneratorTask">
+      </antTask>
+      <antTask
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.versionReplacer"
+            class="org.eclipse.pde.internal.build.tasks.GenericVersionReplacer">
+      </antTask>
+      <antTask
+            class="org.eclipse.pde.internal.build.publisher.FeaturesAndBundlesTask"
+            library="lib/pdebuild-ant.jar"
+            name="eclipse.publish.featuresAndBundles">
+      </antTask>
+	<antTask
+		class="org.eclipse.pde.internal.build.tasks.CompileErrorTask"
+		library="lib/pdebuild-ant.jar"
+		name="eclipse.logCompileError">
+	</antTask>
+	<antTask
+		class="org.eclipse.pde.internal.build.generator.GeneratorTask"
+		library="lib/pdebuild-ant.jar"
+		name="p2.generator">
+	</antTask>
+    
+   </extension>
+<!-- Extra Classpath -->
+   <extension
+         point="org.eclipse.ant.core.extraClasspathEntries">
+      <extraClasspathEntry
+            library="lib/pdebuild-ant.jar">
+      </extraClasspathEntry>
+   </extension>
+   <extension
+         id="Build"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run class="org.eclipse.pde.internal.build.BuildApplication"/>
+      </application>
+   </extension>
+
+   <extension
+         point="org.eclipse.pde.build.fetchFactories">
+      <factory
+            class="org.eclipse.pde.internal.build.fetch.CVSFetchTaskFactory"
+            id="CVS"/>
+      <factory
+            class="org.eclipse.pde.internal.build.fetch.COPYFetchTasksFactory"
+            id="COPY"/>
+		<factory
+			class="org.eclipse.pde.internal.build.fetch.GETFetchFactory"
+			id="GET"/>
+		<factory
+			class="org.eclipse.pde.internal.build.fetch.P2IUFetchFactory"
+			id="p2IU"/>
+   </extension>
+   
+    <extension
+         point="org.eclipse.ant.core.antProperties">
+      <antProperty
+            class="org.eclipse.pde.internal.build.properties.PDEProperties"
+            eclipseRuntime="false"
+            headless="true"
+            name="eclipse.pdebuild.home"/>
+      <antProperty
+            class="org.eclipse.pde.internal.build.properties.PDEProperties"
+            eclipseRuntime="false"
+            headless="true"
+            name="eclipse.pdebuild.scripts"/>
+      <antProperty
+            class="org.eclipse.pde.internal.build.properties.PDEProperties"
+            eclipseRuntime="false"
+            headless="true"
+            name="eclipse.pdebuild.templates"/>                        
+   </extension>
+
+</plugin>

@@ -1,0 +1,9 @@
+JEB2 Decompiler
+PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+This directory contains additional analysis modules for JEB2.
+
+If your software package is a Business or Enterprise license,
+head over to https://www.pnfsoftware.com/jeb2/plugins to download
+additional modules, such as the Adobe PDF plugin.

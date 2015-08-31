@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component name="org.eclipse.jdt.debug_3.8.102.v20150115-1323" version="1.2">
+    <plugin id="org.eclipse.jdt.debug_3.8.102.v20150115-1323"/>
+    <package name="org.eclipse.jdt.debug.core" visibility="1">
+        <type name="IJavaArray" restrictions="3"/>
+        <type name="IJavaArrayType" restrictions="3"/>
+        <type name="IJavaBreakpoint" restrictions="3"/>
+        <type name="IJavaClassObject" restrictions="3"/>
+        <type name="IJavaClassPrepareBreakpoint" restrictions="3"/>
+        <type name="IJavaClassType" restrictions="3"/>
+        <type name="IJavaDebugTarget" restrictions="3"/>
+        <type name="IJavaExceptionBreakpoint" restrictions="3"/>
+        <type name="IJavaFieldVariable" restrictions="3"/>
+        <type name="IJavaInterfaceType" restrictions="3"/>
+        <type name="IJavaLineBreakpoint" restrictions="3"/>
+        <type name="IJavaMethodBreakpoint" restrictions="3"/>
+        <type name="IJavaMethodEntryBreakpoint" restrictions="3"/>
+        <type name="IJavaModifiers" restrictions="3"/>
+        <type name="IJavaObject" restrictions="3"/>
+        <type name="IJavaPatternBreakpoint" restrictions="3"/>
+        <type name="IJavaPrimitiveValue" restrictions="3"/>
+        <type name="IJavaReferenceType" restrictions="3"/>
+        <type name="IJavaStackFrame" restrictions="3"/>
+        <type name="IJavaStratumLineBreakpoint" restrictions="3"/>
+        <type name="IJavaTargetPatternBreakpoint" restrictions="3"/>
+        <type name="IJavaThread" restrictions="3"/>
+        <type name="IJavaThreadGroup" restrictions="3"/>
+        <type name="IJavaType" restrictions="3"/>
+        <type name="IJavaValue" restrictions="3"/>
+        <type name="IJavaVariable" restrictions="3"/>
+        <type name="IJavaWatchpoint" restrictions="3"/>
+        <type name="JDIDebugModel" restrictions="6"/>
+    </package>
+    <package name="org.eclipse.jdt.debug.eval" visibility="1">
+        <type name="EvaluationManager" restrictions="6"/>
+        <type name="IAstEvaluationEngine" restrictions="3"/>
+        <type name="IClassFileEvaluationEngine" restrictions="3"/>
+        <type name="ICompiledExpression" restrictions="3"/>
+        <type name="IEvaluationEngine" restrictions="3"/>
+        <type name="IEvaluationResult" restrictions="3"/>
+    </package>
+</component>

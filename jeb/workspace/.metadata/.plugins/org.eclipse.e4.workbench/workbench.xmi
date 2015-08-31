@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_QnXi8U0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ide.application" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" selectedElement="_QnXi8k0sEeWxM6WZ8Hx_Lw" bindingContexts="_QnZYck0sEeWxM6WZ8Hx_Lw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_QnXi8k0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.trimmedwindow.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" selectedElement="_QnXi800sEeWxM6WZ8Hx_Lw" label="JEB2" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/program/jeb.png" bindingContexts="_QnZYck0sEeWxM6WZ8Hx_Lw" x="790" y="265" width="1196" height="680">
+    <tags>topLevel</tags>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_QnXi800sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" selectedElement="_QnXi9E0sEeWxM6WZ8Hx_Lw">
+      <children xsi:type="advanced:Perspective" xmi:id="_QnXi9E0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" selectedElement="_QnXi9U0sEeWxM6WZ8Hx_Lw">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_QnXi9U0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.partsashcontainer.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="10000" selectedElement="_QnXi9k0sEeWxM6WZ8Hx_Lw" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_QnXi9k0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.partstack.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="1400" selectedElement="_QnXi900sEeWxM6WZ8Hx_Lw">
+            <persistedState key="viewList" value=""/>
+            <tags>active</tags>
+            <children xsi:type="basic:Part" xmi:id="_QnXi900sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.part.projectTree" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.ProjectTreePart" label="Project Explorer" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/hierarchy_co.gif" closeable="true">
+              <tags>active</tags>
+              <menus xsi:type="menu:PopupMenu" xmi:id="_QnYKAE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKAU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.open" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Open View" command="_QnZ_Qk0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKAk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.openNewView" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Open new View" command="_QnZ_Q00sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKA00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.13" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKBE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.extractTo" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Extract to..." command="_QnZ_U00sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKBU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.parseat" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Parse at..." command="_QnZ_VE0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKBk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.9" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKB00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.properties" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Properties" command="_QnZYfE0sEeWxM6WZ8Hx_Lw"/>
+              </menus>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_QnYKCE0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="8600" selectedElement="_QnYKCU0sEeWxM6WZ8Hx_Lw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_QnYKCU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.partsashcontainer.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="7200" selectedElement="_QnYKCk0sEeWxM6WZ8Hx_Lw" horizontal="true">
+              <tags>NoAutoCollapse</tags>
+              <children xsi:type="basic:PartStack" xmi:id="_zhxTgE0wEeWxM6WZ8Hx_Lw" elementId="PartStack@1299da96" containerData="5371">
+                <persistedState key="viewList" value="com.pnfsoftware.jeb.rcpclient.parts.units.CodeHierarchyView"/>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_QnYKCk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.partstack.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="10743">
+                <persistedState key="viewList" value="com.pnfsoftware.jeb.rcpclient.parts.units.InteractiveTextComposite"/>
+                <tags>NoAutoCollapse</tags>
+              </children>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_QnYKC00sEeWxM6WZ8Hx_Lw" elementId="PartStack@5d4703c3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" containerData="2800" selectedElement="_QnYKDE0sEeWxM6WZ8Hx_Lw">
+              <persistedState key="viewList" value=""/>
+              <children xsi:type="basic:Part" xmi:id="_QnYKDE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.part.logger" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.GlobalLoggerPart" label="Logger" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/console_view.gif" closeable="true"/>
+              <children xsi:type="basic:Part" xmi:id="_QnYKDU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.part.console" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.ConsolePart" label="Console" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/writeout_co.gif" closeable="true"/>
+            </children>
+            <children xsi:type="basic:Part" xmi:id="_QnYKDk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.part.popupmenu.action" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" visible="false" label="action menu">
+              <menus xsi:type="menu:PopupMenu" xmi:id="_QnYKD00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.actions" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient">
+                <children xsi:type="menu:Menu" xmi:id="_QnYKEE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.menu.menu_customactions" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_customactions">
+                  <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKEU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.test" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" label="Examine metadata" command="_QnZ_ME0sEeWxM6WZ8Hx_Lw"/>
+                </children>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKEk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.menuseparator.11" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKE00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.decompile" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Decompile" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/debugt_obj_2.gif" mnemonics="D" command="_QnZ_R00sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKFE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.comment" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Comment" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/comment_edit.gif" mnemonics="/" command="_QnZ_SU0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKFU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.rename" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Rename" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/write_obj.gif" mnemonics="n" command="_QnZ_Rk0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKFk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.cross-references" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Cross-references" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/search_ref_obj.gif" mnemonics="X" command="_QnZ_SE0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKF00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.menuseparator.12" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKGE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.createPackage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Create Package" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/package_obj.gif" command="_QnZ_Sk0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKGU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.moveToPackage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Move to Package" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/logical_package_obj.gif" command="_QnZ_S00sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKGk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.hierarchies" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Type Hierarchy" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/type.gif" enabled="false" command="_QnZ_TE0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKG00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.overrides" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Overrides" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/super_co.gif" enabled="false" command="_QnZ_TU0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKHE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.16" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKHU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.delete" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Delete" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/delete_obj.gif" command="_QnZ_Vk0sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKHk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.convert" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Convert" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/loop_obj.gif" command="_QnZ_V00sEeWxM6WZ8Hx_Lw"/>
+                <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKH00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.menuseparator.14" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKIE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.popupmenu.handledmenuitem.anomalies" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" label="Notifications" mnemonics="" command="_QnZ_VU0sEeWxM6WZ8Hx_Lw"/>
+              </menus>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_QnYKIU0sEeWxM6WZ8Hx_Lw" elementId="menu:org.eclipse.ui.main.menu" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient">
+      <children xsi:type="menu:Menu" xmi:id="_QnYKIk0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_file" mnemonics="F">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKI00sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_open" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/fldr_obj.gif" mnemonics="O" command="_QnZYdk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:Menu" xmi:id="_QnYKJE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.openRecent" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Open recent">
+          <tags>recentfilesMenu</tags>
+          <children xsi:type="menu:DynamicMenuContribution" xmi:id="_QnYKJU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Recent List" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileOpenrecentMenuHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_ut0cUE0wEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.3.0" label="/home/juude/com.netease.ldxy.mi-1.apk" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileOpenrecentHandler">
+            <persistedState key="path" value="/home/juude/com.netease.ldxy.mi-1.apk"/>
+            <tags>recentfileMenuEntry</tags>
+          </children>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKJk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.addAnArtifact" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Add an Artifact..." iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/add_obj.gif" tooltip="Add an artifact to the open project" command="_QnZYd00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKJ00sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_close" mnemonics="C" command="_QnZYeE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKKE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKKU0sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_export" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/export_wiz.gif" enabled="false" mnemonics="E" command="_QnZYe00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKKk0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_save" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/save_edit.gif" mnemonics="S" command="_QnZYeU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKK00sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_saveas" enabled="false" mnemonics="A" command="_QnZYek0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKLE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:Menu" xmi:id="_QnYKLU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.core" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Engines">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKLk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.parsers" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Parser Plugins..." enabled="false" command="_QnZYfk0sEeWxM6WZ8Hx_Lw"/>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKL00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.plugins" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Generic Plugins..." command="_QnZYfU0sEeWxM6WZ8Hx_Lw"/>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKME0sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_properties" mnemonics="r" command="_QnZYfE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKMU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.15" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKMk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.notifications" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Notifications..." iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/warning.gif" enabled="false" command="_QnZYf00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKM00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.2" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKNE0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_exit" mnemonics="x" command="_QnZ_ME0sEeWxM6WZ8Hx_Lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYKNU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.edit" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_edit" mnemonics="E">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKNk0sEeWxM6WZ8Hx_Lw" elementId="menu:org.eclipse.ui.main.menu.edit.cut" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_cut" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/cut_edit.gif" enabled="false" mnemonics="t" command="_QnZ_MU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKN00sEeWxM6WZ8Hx_Lw" elementId="menu:org.eclipse.ui.main.menu.edit.copy" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_copy" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/copy_edit.gif" enabled="false" mnemonics="C" command="_QnZ_Mk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKOE0sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_paste" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/paste_edit.gif" enabled="false" mnemonics="P" command="_QnZ_M00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKOU0sEeWxM6WZ8Hx_Lw" elementId="" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_selectall" enabled="false" mnemonics="A" command="_QnZ_NE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKOk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKO00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.find" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_find" mnemonics="F" command="_QnZ_NU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKPE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.findNext" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_findnext" enabled="false" mnemonics="N" command="_QnZ_Nk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKPU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.7" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:Menu" xmi:id="_QnYKPk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.language" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_language" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/jeb1/icon-world.png" mnemonics="L">
+          <tags>languageMenu</tags>
+          <children xsi:type="menu:DynamicMenuContribution" xmi:id="_QnYKP00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="LocaleDynMenu" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageMenuHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuKHcE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.0" label="Deutsch (German)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="de"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuKHcU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.1" label="English (English)" selected="true" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="en"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuKugE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.2" label="espa&#xf1;ol (Spanish)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="es"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuKugU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.3" label="fran&#xe7;ais (French)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="fr"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuLVkE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.4" label="italiano (Italian)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="it"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuL8oE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.5" label="&#x65e5;&#x672c;&#x8a9e; (Japanese)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="ja"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuL8oU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.6" label="&#xd55c;&#xad6d;&#xc5b4; (Korean)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="ko"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuMjsE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.7" label="portugu&#xea;s (Portuguese)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="pt"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuMjsU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.8" label="&#x440;&#x443;&#x441;&#x441;&#x43a;&#x438;&#x439; (Russian)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="ru"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuNKwE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.9" label="T&#xfc;rk&#xe7;e (Turkish)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="tr"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_QuNKwU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.1.10" label="&#x4e2d;&#x6587; (Chinese)" type="Check" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler">
+            <persistedState key="language" value="zh"/>
+            <tags>languageMenuEntry</tags>
+          </children>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYKQE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.6" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKQU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.style" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Style..." mnemonics="S" command="_QnZ_OE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKQk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.options" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_options" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/jeb1/icon-options.png" mnemonics="O" command="_QnZ_OU0sEeWxM6WZ8Hx_Lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYKQ00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.navigation" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="&amp;Navigation" mnemonics="N">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKRE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.navigateForward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Navigate Forward" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/nav_forward.gif" enabled="false" command="_QnZ_UE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKRU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.navigateBackward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Navigate Backward" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/nav_backward.gif" enabled="false" mnemonics="" command="_QnZ_UU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKRk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.follow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Follow" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/goto_obj.gif" enabled="false" mnemonics="F" command="_QnZ_T00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYKR00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.jumpTo" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Jump To" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/runtoline_co.gif" enabled="false" mnemonics="J" command="_QnZ_Tk0sEeWxM6WZ8Hx_Lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYKSE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.action" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_action" mnemonics="A">
+        <children xsi:type="menu:Menu" xmi:id="_QnYKSU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.menu_customactions" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_customactions">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxEE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.test" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" label="Examine metadata" command="_QnZ_ME0sEeWxM6WZ8Hx_Lw"/>
+        </children>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxEU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.11" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxEk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.decompile" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Decompile" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/debugt_obj_2.gif" enabled="false" mnemonics="D" command="_QnZ_R00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxE00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.comment" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Comment" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/comment_edit.gif" enabled="false" mnemonics="/" command="_QnZ_SU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxFE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.rename" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Rename" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/write_obj.gif" enabled="false" mnemonics="n" command="_QnZ_Rk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxFU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.cross-references" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Cross-references" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/search_ref_obj.gif" enabled="false" mnemonics="X" command="_QnZ_SE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxFk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.12" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxF00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.createPackage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Create Package" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/package_obj.gif" enabled="false" command="_QnZ_Sk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxGE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.moveToPackage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Move to Package" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/logical_package_obj.gif" enabled="false" command="_QnZ_S00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxGU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.hierarchies" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Type Hierarchy" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/type.gif" enabled="false" command="_QnZ_TE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxGk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.overrides" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Overrides" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/super_co.gif" enabled="false" command="_QnZ_TU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxG00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.16" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxHE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.delete" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Delete" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/delete_obj.gif" enabled="false" command="_QnZ_Vk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxHU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.convert" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Convert" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/loop_obj.gif" enabled="false" command="_QnZ_V00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxHk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.14" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxH00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.anomalies" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" label="Notifications" mnemonics="" command="_QnZ_VU0sEeWxM6WZ8Hx_Lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYxIE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.debugger" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" toBeRendered="false" visible="false" label="&amp;Debugger" mnemonics="D">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxIU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.attach" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Attach..." iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/debug_view.gif" enabled="false" command="_QnZ_WE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxIk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.detach" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Detach" enabled="false" command="_QnZ_WU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxI00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.8" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxJE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.run" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Run" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/resume_co.gif" enabled="false" command="_QnZ_Wk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxJU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.pause" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Pause" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/pause.gif" enabled="false" command="_QnZ_W00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxJk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.terminate" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Terminate" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/term_sbook.gif" enabled="false" command="_QnZ_XE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxJ00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.19" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxKE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.resume" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Resume Thread" enabled="false" command="_QnZ_XU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxKU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.suspend" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Suspend Thread" enabled="false" command="_QnZ_Xk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxKk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.17" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxK00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.stepInto" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Step into" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/stepinto_co.gif" enabled="false" command="_QnZ_X00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxLE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.stepOver" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Step over" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/stepover_co.gif" enabled="false" command="_QnZ_YE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxLU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.stepOut" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Step out" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/stepreturn_co.gif" enabled="false" command="_QnZ_YU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxLk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.18" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" visible="false"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxL00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.allControls" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" visible="false" label="Settings..." enabled="false" command="_QnZ_Yk0sEeWxM6WZ8Hx_Lw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYxME0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.window" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_window" mnemonics="W">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxMU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.showTheToolbar" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Hide Toolbar" command="_QnZ_QE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxMk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.newWindow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="New Window" command="_QnZ_QU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_QnYxM00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.directmenuitem.pullOutToRight" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Pull out Tab" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.TabPullOutHandler"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxNE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.refresh" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Refresh" enabled="false" command="_QnZ_Uk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxNU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.closeView" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Close View" command="_QnZ_RE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxNk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.resetUiState" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Reset UI State" mnemonics="R" command="_QnZ_RU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxN00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.10" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:Menu" xmi:id="_QnYxOE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menu.views" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="Show View">
+          <children xsi:type="menu:DynamicMenuContribution" xmi:id="_QnYxOU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="WindowDynMenu" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowViewMenuHandler"/>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_Qt2lcE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.0.0" label="Project Explorer" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/hierarchy_co.gif" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowShowGenericHandler">
+            <tags>viewMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_Qt3zkE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.0.1" label="Logger" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/console_view.gif" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowShowGenericHandler">
+            <tags>viewMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_Qt3zkU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.0.2" label="Console" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/writeout_co.gif" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowShowGenericHandler">
+            <tags>viewMenuEntry</tags>
+          </children>
+          <children xsi:type="menu:DirectMenuItem" xmi:id="_Qt4aoE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.dynamicmenucontribution.0.3" label="action menu" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowShowGenericHandler">
+            <tags>viewMenuEntry</tags>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_QnYxOk0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_help" mnemonics="H">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxO00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.onlineManual" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_onlinemanual" tooltip="" mnemonics="M" command="_QnZ_Ok0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxPE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.apiDocumentation" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_apidoc" mnemonics="D" command="_QnZ_O00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxPU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.bulletinBoard" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_bulletinboard" mnemonics="B" command="_QnZ_PE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxPk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.4" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxP00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.changelist" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_changelist" mnemonics="C" command="_QnZ_PU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxQE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledmenuitem.checkForUpdate" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_checkupdate" mnemonics="U" command="_QnZ_Pk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_QnYxQU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.menuseparator.5" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_QnYxQk0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="%menu_about" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/jeb1/icon-jeb.png" mnemonics="A" command="_QnZ_P00sEeWxM6WZ8Hx_Lw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_QnYxQ00sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient">
+      <children xsi:type="menu:ToolBar" xmi:id="_QnYxRE0sEeWxM6WZ8Hx_Lw" elementId="toolbar:org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient">
+        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxRU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.open" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/fldr_obj.gif" tooltip="Open an artifact" command="_QnZYdk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxRk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.save" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/save_edit.gif" tooltip="Save the project" command="_QnZYeU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxR00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.optionsAndPreferences" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/jeb1/icon-options.png" tooltip="Options and Preferences" command="_QnZ_OU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_QnYxSE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.toolbarseparator.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxSU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.jumpTo" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/runtoline_co.gif" tooltip="Jump To" command="_QnZ_Tk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxSk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.follow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/goto_obj.gif" tooltip="Follow" command="_QnZ_T00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxS00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.navigateBackward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/nav_backward.gif" tooltip="Navigate Backward" command="_QnZ_UU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxTE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.navigateForward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" label="" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/nav_forward.gif" tooltip="Navigate Forward" command="_QnZ_UE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_QnYxTU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.toolbarseparator.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxTk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/debugt_obj_2.gif" tooltip="Decompile" command="_QnZ_R00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxT00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/comment_edit.gif" tooltip="Comment" command="_QnZ_SU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxUE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.2" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/write_obj.gif" tooltip="Rename" command="_QnZ_Rk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxUU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/search_ref_obj.gif" tooltip="Cross-References" command="_QnZ_SE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_QnYxUk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.toolbarseparator.2" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxU00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.4" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/package_obj.gif" tooltip="Create Package" command="_QnZ_Sk0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxVE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.5" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/logical_package_obj.gif" tooltip="Move to Package" command="_QnZ_S00sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxVU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.6" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/type.gif" tooltip="Type Hierarchy" command="_QnZ_TE0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxVk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.7" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/super_co.gif" tooltip="Overrides" command="_QnZ_TU0sEeWxM6WZ8Hx_Lw"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_QnYxV00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.toolbarseparator.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QnYxWE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handledtoolitem.8" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/warning.gif" tooltip="Notifications" command="_QnZYf00sEeWxM6WZ8Hx_Lw"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_QnYxWU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.trimbar.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_QnYxWk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.toolcontrol.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.StatusBarPart"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_QnYxW00sEeWxM6WZ8Hx_Lw" elementId="com.pnfsoftware.jeb.rcpclient.handler.openCommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileOpenHandler" command="_QnZYdk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxXE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileAddHandler" command="_QnZYd00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxXU0sEeWxM6WZ8Hx_Lw" elementId="com.pnfsoftware.jeb.rcpclient.handler.quitCommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileCloseHandler" command="_QnZYeE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxXk0sEeWxM6WZ8Hx_Lw" elementId="com.pnfsoftware.jeb.rcpclient.handler.saveCommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileSaveHandler" command="_QnZYeU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxX00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.12" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileExportHandler" command="_QnZYe00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxYE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.6" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FilePropertiesHandler" command="_QnZYfE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxYU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.5" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileExitHandler" command="_QnZ_ME0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnYxYk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.9" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditCutHandler" command="_QnZ_MU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYIE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.2" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditCopyHandler" command="_QnZ_Mk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYIU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.8" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditPasteHandler" command="_QnZ_M00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYIk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.17" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditSelectallHandler" command="_QnZ_NE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYI00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.10" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditFindHandler" command="_QnZ_NU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYJE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.11" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditFindnextHandler" command="_QnZ_Nk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYJU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.43" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditStyleHandler" command="_QnZ_OE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYJk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.7" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditLanguageHandler" command="_QnZ_N00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYJ00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.13" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.edition.EditOptionsHandler" command="_QnZ_OU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYKE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpChangelistHandler" command="_QnZ_PU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYKU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpCheckupdateHandler" command="_QnZ_Pk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYKk0sEeWxM6WZ8Hx_Lw" elementId="com.pnfsoftware.jeb.rcpclient.handler.aboutCommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpAboutHandler" command="_QnZ_P00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYK00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.14" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpApidocHandler" command="_QnZ_O00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYLE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.15" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpBulletinboardHandler" command="_QnZ_PE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYLU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.16" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.help.HelpOnlinemanualHandler" command="_QnZ_Ok0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYLk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.22" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowShowtoolbarHandler" command="_QnZ_QE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYL00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.23" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowNewWindowHandler" command="_QnZ_QU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYME0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.32" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowOpenView" command="_QnZ_Qk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYMU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.33" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowOpenNewView" command="_QnZ_Q00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYMk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.38" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowClosepartHandler" command="_QnZ_RE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYM00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.44" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.windows.WindowResetUIStateHandler" command="_QnZ_RU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYNE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.18" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionRenameHandler" command="_QnZ_Rk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYNU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.20" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionDecompileHandler" command="_QnZ_R00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYNk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.4" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionXrefHandler" command="_QnZ_SE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYN00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.21" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionCommentHandler" command="_QnZ_SU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYOE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.24" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionCreatePackageHandler" command="_QnZ_Sk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYOU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.25" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionMoveToPackageHandler" command="_QnZ_S00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYOk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.26" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionTypeHierarchyHandler" command="_QnZ_TE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYO00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.27" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionOverridesHandler" command="_QnZ_TU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYPE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.19" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionJumpToHandler" command="_QnZ_Tk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYPU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.34" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionFollowHandler" command="_QnZ_T00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYPk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.28" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionNavigateForwardHandler" command="_QnZ_UE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYP00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.29" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionNavigateBackwardHandler" command="_QnZ_UU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYQE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.35" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionRefreshHandler" command="_QnZ_Uk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYQU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.30" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileEnginesParsersHandler" command="_QnZYfk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYQk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.31" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileEnginesPluginsHandler" command="_QnZYfU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYQ00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.39" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionExtractToHandler" command="_QnZ_U00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYRE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.36" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionParseAtHandler" command="_QnZ_VE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYRU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.37" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionUnitNotificationsHandler" command="_QnZ_VU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYRk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.40" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.file.FileNotificationsHandler" command="_QnZYf00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYR00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.41" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionDeleteHandler" command="_QnZ_Vk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYSE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.42" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.actions.ActionConvertHandler" command="_QnZ_V00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYSU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.44" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerAttachHandler" command="_QnZ_WE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYSk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.45" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerDetachHandler" command="_QnZ_WU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYS00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.43" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerRunHandler" command="_QnZ_Wk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYTE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.48" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerPauseHandler" command="_QnZ_W00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYTU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.46" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerTerminateHandler" command="_QnZ_XE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYTk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.49" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerResumeThreadHandler" command="_QnZ_XU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYT00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.50" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerSuspendThreadHandler" command="_QnZ_Xk0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYUE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.51" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerStepIntoHandler" command="_QnZ_X00sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYUU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.52" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerStepOverHandler" command="_QnZ_YE0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYUk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.53" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerStepOutHandler" command="_QnZ_YU0sEeWxM6WZ8Hx_Lw"/>
+  <handlers xmi:id="_QnZYU00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.handler.47" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.handlers.debugger.DebuggerSettingsHandler" command="_QnZ_Yk0sEeWxM6WZ8Hx_Lw"/>
+  <bindingTables xmi:id="_QnZYVE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.bindingtable.jeb2.rcpclient.bindingtable.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" bindingContext="_QnZYck0sEeWxM6WZ8Hx_Lw">
+    <bindings xmi:id="_QnZYVU0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M3+F4" command="_QnZ_ME0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYVk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.6" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+O" command="_QnZYdk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYV00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.18" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+M2+O" command="_QnZYd00sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYWE0sEeWxM6WZ8Hx_Lw" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+S" command="_QnZYeU0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYWU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.3" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+F" command="_QnZ_NU0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYWk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.4" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+K" command="_QnZ_Nk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYW00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.10" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M3+CR" command="_QnZYfE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYXE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.20" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+W" command="_QnZ_RE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_QnZYXU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.bindingtable.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" bindingContext="_QnZYdE0sEeWxM6WZ8Hx_Lw">
+    <tags>type:user</tags>
+    <bindings xmi:id="_QnZYXk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.9" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="J" command="_QnZ_Tk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYX00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.8" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="N" command="_QnZ_Rk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYYE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.7" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="Q" command="_QnZ_R00sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYYU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.11" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="X" command="_QnZ_SE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYYk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.12" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="/" command="_QnZ_SU0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYY00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.13" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M3+ARROW_LEFT" command="_QnZ_UU0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYZE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.14" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M3+ARROW_RIGHT" command="_QnZ_UE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYZU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.15" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="CR" command="_QnZ_T00sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYZk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.24" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="P" command="_QnZ_Sk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYZ00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.23" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M" command="_QnZ_S00sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYaE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.16" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="T" command="_QnZ_TE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYaU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.17" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="O" command="_QnZ_TU0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYak0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.19" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="F5" command="_QnZ_Uk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYa00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.21" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="C" command="_QnZ_V00sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYbE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.22" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="DEL" command="_QnZ_Vk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+  </bindingTables>
+  <bindingTables xmi:id="_QnZYbU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.bindingtable.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" bindingContext="_QnZYc00sEeWxM6WZ8Hx_Lw">
+    <bindings xmi:id="_QnZYbk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+C" command="_QnZ_Mk0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+    <bindings xmi:id="_QnZYb00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+V" command="_QnZ_M00sEeWxM6WZ8Hx_Lw"/>
+    <bindings xmi:id="_QnZYcE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.2" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+X" command="_QnZ_MU0sEeWxM6WZ8Hx_Lw"/>
+    <bindings xmi:id="_QnZYcU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.keybinding.5" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" keySequence="M1+A" command="_QnZ_NE0sEeWxM6WZ8Hx_Lw">
+      <tags>type:user</tags>
+    </bindings>
+  </bindingTables>
+  <rootContext xmi:id="_QnZYck0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" name="In Dialog and Windows">
+    <children xmi:id="_QnZYc00sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" name="In Windows">
+      <children xmi:id="_QnZYdE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.bindingcontext.actions" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" name="For Actions">
+        <tags>type:user</tags>
+      </children>
+    </children>
+    <children xmi:id="_QnZYdU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_QnZYdk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileopen" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileOpenCommand"/>
+  <commands xmi:id="_QnZYd00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileaddcommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileAddCommand" description="Add an artifact to the open project"/>
+  <commands xmi:id="_QnZYeE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileclose" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileCloseCommand"/>
+  <commands xmi:id="_QnZYeU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.file.save" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileSaveCommand"/>
+  <commands xmi:id="_QnZYek0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.file.saveAs" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileSaveasCommand"/>
+  <commands xmi:id="_QnZYe00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileexportcommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileExportCommand"/>
+  <commands xmi:id="_QnZYfE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileproperties" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="filePropertiesCommand"/>
+  <commands xmi:id="_QnZYfU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileenginesplugins" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileEnginesPlugins"/>
+  <commands xmi:id="_QnZYfk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.fileenginesparsers" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileEnginesParsers"/>
+  <commands xmi:id="_QnZYf00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.filenotifications" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileNotifications"/>
+  <commands xmi:id="_QnZ_ME0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.file.exit" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="fileExitCommand"/>
+  <commands xmi:id="_QnZ_MU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.edit.cut" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editCutCommand"/>
+  <commands xmi:id="_QnZ_Mk0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.edit.copy" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editCopyCommand"/>
+  <commands xmi:id="_QnZ_M00sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.edit.paste" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editPasteCommand"/>
+  <commands xmi:id="_QnZ_NE0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.edit.selectAll" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editSelectall"/>
+  <commands xmi:id="_QnZ_NU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.editfind" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editFindCommand"/>
+  <commands xmi:id="_QnZ_Nk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.editfindnext" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editFindnextCommand"/>
+  <commands xmi:id="_QnZ_N00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.editlanguage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editLanguageCommand"/>
+  <commands xmi:id="_QnZ_OE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.editstyle" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editStyle"/>
+  <commands xmi:id="_QnZ_OU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.window.preferences" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="editOptionsCommand"/>
+  <commands xmi:id="_QnZ_Ok0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.helpmanual" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpOnlinemanualCommand"/>
+  <commands xmi:id="_QnZ_O00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.helpapidoc" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpApidocCommand"/>
+  <commands xmi:id="_QnZ_PE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.helpbulletinboard" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpBulletinboardCommand"/>
+  <commands xmi:id="_QnZ_PU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.helpchangelist" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpChangelistCommand"/>
+  <commands xmi:id="_QnZ_Pk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.helpcheckupdate" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpCheckupdateCommand"/>
+  <commands xmi:id="_QnZ_P00sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.ui.help.aboutAction" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="helpAboutCommand"/>
+  <commands xmi:id="_QnZ_QE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windowshowtoolbarcommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowShowtoolbarCommand"/>
+  <commands xmi:id="_QnZ_QU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windownewwindowcommand" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowNewwindowCommand"/>
+  <commands xmi:id="_QnZ_Qk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windowopenview" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowOpenView"/>
+  <commands xmi:id="_QnZ_Q00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windowopennewview" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowOpenNewView"/>
+  <commands xmi:id="_QnZ_RE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windowclosepart" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowClosePart"/>
+  <commands xmi:id="_QnZ_RU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.windowresetuistate" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="windowResetUIState"/>
+  <commands xmi:id="_QnZ_Rk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionrenameitem" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionRenameItem"/>
+  <commands xmi:id="_QnZ_R00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actiondecompile" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionDecompile"/>
+  <commands xmi:id="_QnZ_SE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionxref" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionXref"/>
+  <commands xmi:id="_QnZ_SU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actioncomment" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionComment"/>
+  <commands xmi:id="_QnZ_Sk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionCreatePackage"/>
+  <commands xmi:id="_QnZ_S00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionmovetopackage" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionMoveToPackage"/>
+  <commands xmi:id="_QnZ_TE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actiontypehierarchy" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionTypeHierarchy"/>
+  <commands xmi:id="_QnZ_TU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionoverrides" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionOverrides"/>
+  <commands xmi:id="_QnZ_Tk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionjumpto" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionJumpTo"/>
+  <commands xmi:id="_QnZ_T00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionfollow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionFollow"/>
+  <commands xmi:id="_QnZ_UE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionnavigateforward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionNavigateForward"/>
+  <commands xmi:id="_QnZ_UU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionnavigatebackward" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionNavigateBackward"/>
+  <commands xmi:id="_QnZ_Uk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionrefresh" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionRefresh"/>
+  <commands xmi:id="_QnZ_U00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionextractto" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionExtractTo"/>
+  <commands xmi:id="_QnZ_VE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionparseat" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionParseAt"/>
+  <commands xmi:id="_QnZ_VU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionunitnotifications" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionUnitNotifications"/>
+  <commands xmi:id="_QnZ_Vk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actiondelete" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionDelete"/>
+  <commands xmi:id="_QnZ_V00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.actionconvert" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="actionConvert"/>
+  <commands xmi:id="_QnZ_WE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerattach" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerAttach"/>
+  <commands xmi:id="_QnZ_WU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerdetach" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerDetach"/>
+  <commands xmi:id="_QnZ_Wk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerrun" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerRun"/>
+  <commands xmi:id="_QnZ_W00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerpause" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerPause"/>
+  <commands xmi:id="_QnZ_XE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerterminate" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerTerminate"/>
+  <commands xmi:id="_QnZ_XU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerresumethread" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerResumeThread"/>
+  <commands xmi:id="_QnZ_Xk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggersuspendthread" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerSuspendThread"/>
+  <commands xmi:id="_QnZ_X00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerstepinto" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerStepInto"/>
+  <commands xmi:id="_QnZ_YE0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerstepover" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerStepOver"/>
+  <commands xmi:id="_QnZ_YU0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggerstepout" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerStepOut"/>
+  <commands xmi:id="_QnZ_Yk0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.command.debuggersettings" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" commandName="debuggerSettings"/>
+  <addons xmi:id="_QnZ_Y00sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_QnZ_ZE0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_QnZ_ZU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_QnZ_Zk0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_QnZ_Z00sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_QnZ_aE0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_QnZ_aU0sEeWxM6WZ8Hx_Lw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_QnZ_ak0sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.addon.0" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_QnZ_a00sEeWxM6WZ8Hx_Lw" elementId="jeb2.rcpclient.addon.1" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+  <addons xmi:id="_QncbcE0sEeWxM6WZ8Hx_Lw" elementId="MinMaxAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
+  <addons xmi:id="_QndpkE0sEeWxM6WZ8Hx_Lw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
+</application:Application>

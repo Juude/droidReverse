@@ -1,0 +1,146 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Built-By: e4Build
+Bundle-SymbolicName: org.eclipse.pde.build;singleton:=true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/pde/ec
+ lipse.pde.build.git;path="org.eclipse.pde.build";tag="I20140422-0800"
+ ;commitId=a26a65c09c884309aaae826d55374072cd42efce
+Bundle-Activator: org.eclipse.pde.internal.build.BuildActivator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)
+ ",org.eclipse.ant.core;bundle-version="[3.1.100,4.0.0)",org.eclipse.u
+ pdate.configurator;bundle-version="[3.1.0,4.0.0)",org.eclipse.core.ru
+ ntime.compatibility;bundle-version="[3.1.100,4.0.0)";resolution:=opti
+ onal,org.eclipse.osgi;bundle-version="[3.3.0,4.0.0)",org.eclipse.equi
+ nox.p2.jarprocessor;bundle-version="[1.0.1,2.0.0)",org.eclipse.equino
+ x.p2.publisher;bundle-version="1.1.0",org.eclipse.equinox.p2.reposito
+ ry.tools;bundle-version="[2.0.0,3.0.0)";resolution:=optional,org.ecli
+ pse.equinox.p2.director.app;bundle-version="1.0.200",org.eclipse.equi
+ nox.p2.publisher.eclipse;bundle-version="1.0.0"
+Bundle-Version: 3.9.0.v20140415-2029
+Export-Package: org.eclipse.pde.build,org.eclipse.pde.internal.build;x
+ -friends:="org.eclipse.pde.core,org.eclipse.pde.ui,org.eclipse.pde.la
+ unching",org.eclipse.pde.internal.build.ant;x-internal:=true,org.ecli
+ pse.pde.internal.build.builder;x-internal:=true,org.eclipse.pde.inter
+ nal.build.fetch;x-internal:=true,org.eclipse.pde.internal.build.packa
+ ger;x-friends:="org.eclipse.pde.core",org.eclipse.pde.internal.build.
+ properties;x-internal:=true,org.eclipse.pde.internal.build.publisher.
+ compatibility;x-internal:=true,org.eclipse.pde.internal.build.site;x-
+ friends:="org.eclipse.pde.core,org.eclipse.pde.ui",org.eclipse.pde.in
+ ternal.build.site.compatibility;x-internal:=true
+Build-Jdk: 1.7.0_51
+Bundle-ClassPath: pdebuild.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Import-Package: com.ibm.icu.util,org.eclipse.equinox.frameworkadmin;ve
+ rsion="[2.0.0,3.0.0)",org.eclipse.equinox.internal.p2.core.helpers,or
+ g.eclipse.equinox.internal.p2.engine,org.eclipse.equinox.internal.p2.
+ engine.phases,org.eclipse.equinox.internal.p2.metadata,org.eclipse.eq
+ uinox.internal.p2.metadata.expression,org.eclipse.equinox.internal.p2
+ .updatesite;resolution:=optional,org.eclipse.equinox.internal.provisi
+ onal.frameworkadmin,org.eclipse.equinox.p2.core;version="[2.0.0,3.0.0
+ )",org.eclipse.equinox.p2.engine;version="[2.0.0,3.0.0)",org.eclipse.
+ equinox.p2.metadata;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.me
+ tadata.expression;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.quer
+ y;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.repository;version="
+ [2.0.0,3.0.0)",org.eclipse.equinox.p2.repository.artifact;version="[2
+ .0.0,3.0.0)",org.eclipse.equinox.p2.repository.artifact.spi;version="
+ [2.0.0,3.0.0)",org.eclipse.equinox.p2.repository.metadata;version="[2
+ .0.0,3.0.0)",org.eclipse.equinox.simpleconfigurator.manipulator;versi
+ on="[2.0.0,3.0.0)"
+Bundle-ManifestVersion: 2
+
+Name: about_files/LICENSE-2.0.txt
+SHA1-Digest: K4uBUimqimHkg/tLoFiLi2xJGJA=
+
+Name: templates/headless-build/allElements.xml
+SHA1-Digest: q2bBKYqmPHqOOoZ/KHGW27vpTrs=
+
+Name: pdebuild.jar
+SHA1-Digest: jOeBaV321EElJPJelP0DLhdV1bs=
+
+Name: data/30/plugin/plugin.xml
+SHA1-Digest: I0t+o6kXbySrxIY1bLaTaeai3Vc=
+
+Name: data/21/fragment/fragment.xml
+SHA1-Digest: AbavRQNBCu7bTM0Lc1H50zDiSYo=
+
+Name: plugin.properties
+SHA1-Digest: On4ECYWupC7e7IaidKlhX7JRmGE=
+
+Name: scripts/build.xml
+SHA1-Digest: ALT6mg0J2VkdlElO/DZKKircLUY=
+
+Name: data/30/plugin/META-INF/MANIFEST.MF
+SHA1-Digest: YY/Djivfu2eLXiPBR81hSqa2uJQ=
+
+Name: data/30/fragment/META-INF/MANIFEST.MF
+SHA1-Digest: Irr/y/I+zj9qi1W87gYOTMKdbY4=
+
+Name: data/env.properties
+SHA1-Digest: KhOvLujH8iUzIbSCRnx882tEcpA=
+
+Name: templates/headless-build/customTargets.xml
+SHA1-Digest: ysKk345XLu/en5JFKsouuTT68/E=
+
+Name: plugin.xml
+SHA1-Digest: obF3VlY5YjLmoni+V2C2/Kg/EUM=
+
+Name: templates/headless-build/customAssembly.xml
+SHA1-Digest: YCnG/irNOio2TVNnXRqFrWsbPdk=
+
+Name: templates/plugins/customBuildCallbacks.xml
+SHA1-Digest: LJ6pFU49HSIl5sgRQD3RjkLzrAA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 9B1UxmjEjPQTvaKLudJjxwTiwK4=
+
+Name: scripts/package.xml
+SHA1-Digest: SYAECf2gSUtms4UQv0C5kER28fk=
+
+Name: templates/packager/packager.properties
+SHA1-Digest: RnFzi2UlqXOGBjcV37bgjoN5ClE=
+
+Name: .api_description
+SHA1-Digest: S7h7J6OGgQhlwDsYAcDjXfVa5kY=
+
+Name: data/30/fragment/fragment.xml
+SHA1-Digest: lyCvCPJfg+w2XjG/WSlLT9rJmxo=
+
+Name: templates/packager/packaging.properties
+SHA1-Digest: N3d+O5q1xiIYTVEXff2eyLOsHPE=
+
+Name: about.html
+SHA1-Digest: PTYI3wCEbgadLnCeEqDFZO2n2Bk=
+
+Name: data/21/plugin/plugin.xml
+SHA1-Digest: TjrGjV+gDiv3p1mvjHOt/d8yOv4=
+
+Name: templates/packager/customTargets.xml
+SHA1-Digest: NdAmTAEHkbWLOPJOQj58nlgkgoE=
+
+Name: lib/pdebuild-ant.jar
+SHA1-Digest: TQ5DFikffMBB0+v9san+boG6r2s=
+
+Name: .options
+SHA1-Digest: 5rmPsLCzhc3+eEEnwq59tbx7+JM=
+
+Name: scripts/productBuild/productBuild.xml
+SHA1-Digest: DVR/5b8vHCrQlpFCG2J8XUvmay0=
+
+Name: templates/headless-build/build.properties
+SHA1-Digest: gQW5LFibSsDdTKHbXmPzAPMa7Uk=
+
+Name: templates/features/customBuildCallbacks.xml
+SHA1-Digest: Ao54/q93oQ48bt2DqXbflVrwLRc=
+
+Name: scripts/productBuild/allElements.xml
+SHA1-Digest: bQlG+MHxu2RC8iu8mxTFarrNia8=
+
+Name: scripts/genericTargets.xml
+SHA1-Digest: kEVtVOOX/riWzO7Q9QZbeyoVggM=
+

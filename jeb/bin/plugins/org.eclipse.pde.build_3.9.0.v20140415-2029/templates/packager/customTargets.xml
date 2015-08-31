@@ -1,0 +1,81 @@
+<project name="Custom Targets MyTest" default="noDefault">
+
+	<target name="noDefault" />
+		
+	<!-- This goal of this target is to get the packaging map files of the things you care for 
+	       The files must be fetched into the downloadDirectory folder -->
+	<target name="getMapFiles" unless="localMaps">
+		<get src="${packagerMapURL}" dest="${downloadDirectory}/initial.map" usetimestamp="true"/>
+	</target>
+	
+	<target name="init">
+		<property name="archiveNamePrefix" value="${buildId}"/>
+	</target>
+	
+	<target name="assemble.win32.win32.x86.xml" depends="init">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-win32.win32.win32.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.linux.gtk.x86.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.x86.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.linux.gtk.ppc.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.ppc.zip"/>
+		</ant>
+	</target>
+
+	<target name="assemble.linux.gtk.x86_64.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-linux.gtk.x86_64.zip"/>
+		</ant>
+	</target>
+		
+	<target name="assemble.linux.motif.x86.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-linux.motif.x86.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.solaris.motif.sparc.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-solaris.motif.sparc.zip"/>
+		</ant>
+	</target>
+
+	<target name="assemble.solaris.gtk.sparc.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-solaris.gtk.sparc.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.aix.motif.ppc.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-aix.motif.ppc.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.hpux.motif.PA_RISC.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-hpux.motif.PA_RISC.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.macosx.carbon.ppc.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-macosx.carbon.ppc.zip"/>
+		</ant>
+	</target>
+	
+	<target name="assemble.macosx.carbon.x86.xml">
+		<ant antfile="${assembleScriptName}" >
+			<property name="archiveName" value="${archiveNamePrefix}-macosx.carbon.x86.zip"/>
+		</ant>
+	</target>
+
+</project>
