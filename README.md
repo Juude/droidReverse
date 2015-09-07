@@ -25,7 +25,7 @@
    + 可以分析恶意软件
    + 有python api，可以写扩展
    + **支持可视化**
-![](http://androguard.googlecode.com/files/droiddream-gexf.png)=
+![](https://raw.githubusercontent.com/Juude/droidReverse/master/art/guard.png)
 + [enjarfy](https://github.com/google/enjarify)：
    + google的反编译工具
    + 可以将dalvik bytecode转化为java bytecode
