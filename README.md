@@ -35,5 +35,9 @@
    + 强大的将bytecode转为java代码的能力，对于循环等处理的很好
    + **支持动态编辑，重命名，添加新package等**
    + 支持python的api扩展
-
++ [codeinspect](http://sseblog.ec-spride.de/tools/codeinspect/)
+   + 支持调试
+   + 可以IDE中编辑反编译后文件
++ [https://bytecodeviewer.com/](https://bytecodeviewer.com/)   
+　 + 集成了J-RET,JHexPane, Dex2Jar等多个反编译工具
 
