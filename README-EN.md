@@ -38,3 +38,8 @@
    + a powful decompile from bytecode to java, better handling of loop
    + **can edit dynamiclly, add tags, rename package names**
    + support python api
++ [codeinspect](http://sseblog.ec-spride.de/tools/codeinspect/)
+   + Support breakpoint debug
+   + can edit the decompiled code
++ [https://bytecodeviewer.com/](https://bytecodeviewer.com/)   
+　 + a tool integrated J-RET,JHexPane, Dex2Jar and many other tools.
