@@ -2,7 +2,7 @@
 
 ###[English Edition](https://github.com/Juude/droidReverse/blob/master/README-EN.md)
 ###这是一个android反编译工具的合集
-+ [apktool](): 
++ [apktool](https://ibotpeaches.github.io/Apktool/): 
   +编译res资源
   + 转成smali
   + 将修改后的smali回编译为apk
