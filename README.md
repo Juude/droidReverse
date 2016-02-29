@@ -40,4 +40,6 @@
    + 可以IDE中编辑反编译后文件
 + [https://bytecodeviewer.com/](https://bytecodeviewer.com/)   
 　 + 集成了J-RET,JHexPane, Dex2Jar等多个反编译工具
-
++ [ClassyShark](https://github.com/google/android-classyshark)
+   + Google的apk查看工具
+   + 可以分析出apk的结构以及依赖信息
