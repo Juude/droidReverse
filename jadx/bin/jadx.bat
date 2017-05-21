@@ -69,7 +69,7 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\jadx-cli-0.6.1-dev-build201.jar;%APP_HOME%\lib\android-5.1.jar;%APP_HOME%\lib\dx-1.10.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib\jadx-core-0.6.1-dev-build201.jar;%APP_HOME%\lib\jcommander-1.47.jar;%APP_HOME%\lib\logback-classic-1.1.2.jar;%APP_HOME%\lib\commons-io-2.4.jar;%APP_HOME%\lib\asm-5.0.3.jar;%APP_HOME%\lib\annotations-12.0.jar;%APP_HOME%\lib\cloning-1.9.2.jar;%APP_HOME%\lib\logback-core-1.1.2.jar;%APP_HOME%\lib\objenesis-2.1.jar
+set CLASSPATH=%APP_HOME%\lib\jadx-cli-0.6.1.jar;%APP_HOME%\lib\android-5.1.jar;%APP_HOME%\lib\dx-1.10.jar;%APP_HOME%\lib\slf4j-api-1.7.10.jar;%APP_HOME%\lib\jadx-core-0.6.1.jar;%APP_HOME%\lib\jcommander-1.47.jar;%APP_HOME%\lib\logback-classic-1.1.2.jar;%APP_HOME%\lib\commons-io-2.4.jar;%APP_HOME%\lib\asm-5.0.3.jar;%APP_HOME%\lib\annotations-12.0.jar;%APP_HOME%\lib\cloning-1.9.2.jar;%APP_HOME%\lib\logback-core-1.1.2.jar;%APP_HOME%\lib\objenesis-2.1.jar
 
 @rem Execute jadx
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %JADX_OPTS%  -classpath "%CLASSPATH%" jadx.cli.JadxCLI %CMD_LINE_ARGS%

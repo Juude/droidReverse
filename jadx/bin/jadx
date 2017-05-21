@@ -42,11 +42,6 @@ case "`uname`" in
     ;;
 esac
 
-# For Cygwin, ensure paths are in UNIX format before anything is touched.
-if $cygwin ; then
-    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
-fi
-
 # Attempt to set APP_HOME
 # Resolve links: $0 may be a link
 PRG="$0"
@@ -65,7 +60,7 @@ cd "`dirname \"$PRG\"`/.." >&-
 APP_HOME="`pwd -P`"
 cd "$SAVED" >&-
 
-CLASSPATH=$APP_HOME/lib/jadx-cli-0.6.1-dev-build201.jar:$APP_HOME/lib/android-5.1.jar:$APP_HOME/lib/dx-1.10.jar:$APP_HOME/lib/slf4j-api-1.7.10.jar:$APP_HOME/lib/jadx-core-0.6.1-dev-build201.jar:$APP_HOME/lib/jcommander-1.47.jar:$APP_HOME/lib/logback-classic-1.1.2.jar:$APP_HOME/lib/commons-io-2.4.jar:$APP_HOME/lib/asm-5.0.3.jar:$APP_HOME/lib/annotations-12.0.jar:$APP_HOME/lib/cloning-1.9.2.jar:$APP_HOME/lib/logback-core-1.1.2.jar:$APP_HOME/lib/objenesis-2.1.jar
+CLASSPATH=$APP_HOME/lib/jadx-cli-0.6.1.jar:$APP_HOME/lib/android-5.1.jar:$APP_HOME/lib/dx-1.10.jar:$APP_HOME/lib/slf4j-api-1.7.10.jar:$APP_HOME/lib/jadx-core-0.6.1.jar:$APP_HOME/lib/jcommander-1.47.jar:$APP_HOME/lib/logback-classic-1.1.2.jar:$APP_HOME/lib/commons-io-2.4.jar:$APP_HOME/lib/asm-5.0.3.jar:$APP_HOME/lib/annotations-12.0.jar:$APP_HOME/lib/cloning-1.9.2.jar:$APP_HOME/lib/logback-core-1.1.2.jar:$APP_HOME/lib/objenesis-2.1.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
@@ -114,6 +109,7 @@ fi
 if $cygwin ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
+    JAVACMD=`cygpath --unix "$JAVACMD"`
 
     # We build the pattern for arguments to be converted via cygpath
     ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
