@@ -1,7 +1,7 @@
-#droiReverse
+# droiReverse
 
-###[English Edition](https://github.com/Juude/droidReverse/blob/master/README-EN.md)
-###这是一个android反编译工具的合集
+### [English Edition](https://github.com/Juude/droidReverse/blob/master/README-EN.md)
+### 这是一个android反编译工具的合集
 + [apktool](https://ibotpeaches.github.io/Apktool/): 
   +编译res资源
   + 转成smali
@@ -44,5 +44,5 @@
    + Google的apk查看工具
    + 可以分析出apk的结构以及依赖信息
 
-###Follow Me
+### Follow Me
 + [Weibo](http://weibo.com/evoluter/)
